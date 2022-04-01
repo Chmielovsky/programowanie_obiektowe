@@ -1,0 +1,14 @@
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.csproj.AssemblyReference.cache
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.AssemblyInfoInputs.cache
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.AssemblyInfo.cs
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\bin\Debug\netcoreapp3.1\Lab_2_zadanie.exe
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\bin\Debug\netcoreapp3.1\Lab_2_zadanie.deps.json
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\bin\Debug\netcoreapp3.1\Lab_2_zadanie.runtimeconfig.json
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\bin\Debug\netcoreapp3.1\Lab_2_zadanie.runtimeconfig.dev.json
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\bin\Debug\netcoreapp3.1\Lab_2_zadanie.dll
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\bin\Debug\netcoreapp3.1\Lab_2_zadanie.pdb
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.dll
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.pdb
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\Lab_2_zadanie\Lab_2_zadanie\obj\Debug\netcoreapp3.1\Lab_2_zadanie.genruntimeconfig.cache
