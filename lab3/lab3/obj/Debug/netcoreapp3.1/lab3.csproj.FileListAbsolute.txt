@@ -1,0 +1,14 @@
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.AssemblyReference.cache
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfoInputs.cache
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfo.cs
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.CoreCompileInputs.cache
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.exe
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.deps.json
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.json
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.dev.json
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.dll
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.pdb
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.dll
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.pdb
+C:\Users\Tomek\source\repos\Chmielovsky\programowanie_obiektowe\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.genruntimeconfig.cache
