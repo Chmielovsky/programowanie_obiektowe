@@ -1,0 +1,14 @@
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\bin\Debug\netcoreapp3.1\lab05.exe
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\bin\Debug\netcoreapp3.1\lab05.deps.json
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\bin\Debug\netcoreapp3.1\lab05.runtimeconfig.json
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\bin\Debug\netcoreapp3.1\lab05.runtimeconfig.dev.json
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\bin\Debug\netcoreapp3.1\lab05.dll
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\bin\Debug\netcoreapp3.1\lab05.pdb
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.csproj.AssemblyReference.cache
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.AssemblyInfoInputs.cache
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.AssemblyInfo.cs
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.csproj.CoreCompileInputs.cache
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.dll
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.pdb
+D:\Users\Tomasz.Chmielarczyk\source\repos\programowanie_obiektowe\lab05\lab05\obj\Debug\netcoreapp3.1\lab05.genruntimeconfig.cache
