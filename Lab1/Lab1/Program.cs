@@ -6,90 +6,107 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
-    }
+            Ulamek nowy = new Ulamek();
 
-    class ulamek
-    {
-        private int licznik;
-        private int mianownik;
+            Console.WriteLine(nowy);
 
-        /// <summary>
-        /// konstrukotr domyślny
-        /// </summary>
-        public ulamek()
-        {
-            licznik = 1;
-        }
+            Ulamek drugi = new Ulamek(1, 3);
 
+            Console.WriteLine(nowy + drugi);
 
-        /// <summary>
-        /// konstruktor z dwoma argumentami
-        /// </summary>
+            Console.WriteLine(nowy.Equals(drugi));
 
-        public ulamek(int l, int m)
-        {
-            licznik = l;
-            mianownik = m;
-        }
-
-        /// <summary>
-        /// konstruktor kopiujący (1 argument).
-        /// </summary>
-
-        public ulamek(ulamek previousUlamek)
-        {
-            licznik = previousUlamek.licznik;
-        }
-
-
-        /// <summary>
-        /// metoda string
-        /// </summary>
-        public override string ToString()
-        {
-            return base.ToString();
-        }
-
-
-    }
-    public readonly struct Fraction
-    {
-        private readonly int num;
-        private readonly int den;
-
-        public Fraction(int numerator, int denominator)
-        {
-            if (denominator == 0)
+            Ulamek[] Ulamki = new Ulamek[]
             {
-                throw new ArgumentException("Denominator cannot be zero.", nameof(denominator));
-            }
-            num = numerator;
-            den = denominator;
-        }
+                new Ulamek(3,5),
+                new Ulamek(1, 2),
+                new Ulamek(-10,50),
+                new Ulamek(1,1),
+            };
 
-        public static Fraction operator +(Fraction a) => a;
-        public static Fraction operator -(Fraction a) => new Fraction(-a.num, a.den);
-
-        public static Fraction operator +(Fraction a, Fraction b)
-            => new Fraction(a.num * b.den + b.num * a.den, a.den * b.den);
-
-        public static Fraction operator -(Fraction a, Fraction b)
-            => a + (-b);
-
-        public static Fraction operator *(Fraction a, Fraction b)
-            => new Fraction(a.num * b.num, a.den * b.den);
-
-        public static Fraction operator /(Fraction a, Fraction b)
-        {
-            if (b.num == 0)
+            //ulamki przed sortowaniem
+            for (int i = 0; i < Ulamki.Length; i++)
             {
-                throw new DivideByZeroException();
+                Console.WriteLine(Ulamki[i].ToString());
             }
-            return new Fraction(a.num * b.den, a.den * b.num);
+
+            Array.Sort(Ulamki);
+
+            //ulamki po sortowaniem
+            Console.WriteLine("ulamki po sortowaniu");
+            for (int i = 0; i < Ulamki.Length; i++)
+            {
+                Console.WriteLine(Ulamki[i].ToString());
+            }
+
+
+            Console.WriteLine(drugi.RoundUp());
         }
 
-        public override string ToString() => $"{num} / {den}";
+        public class Ulamek : IEquatable<Ulamek>, IComparable<Ulamek>
+        {
+            private int licznik { get; }
+            private int mianownik { get; }
+
+            //konstruktor domyślny
+            public Ulamek()
+            {
+                licznik = 1;
+                mianownik = 2;
+            }
+
+            //konstruktor z dwoma argumentami
+            public Ulamek(int licznik, int mianownik)
+            {
+                this.licznik = licznik;
+                this.mianownik = mianownik;
+            }
+
+            //konstruktor kopiujacy
+            public Ulamek(Ulamek PreviousUlamek)
+            {
+                licznik = PreviousUlamek.licznik;
+                mianownik = PreviousUlamek.mianownik;
+            }
+
+            //toString
+            public override string ToString()
+            {
+                return $"Ulamek:{this.licznik}/{this.mianownik} ";
+            }
+
+
+            public bool Equals(Ulamek other)
+            {
+                if (other == this) return true;
+                if (other == null) return false;
+
+                return licznik == other.licznik && mianownik == other.mianownik;
+            }
+
+            public int CompareTo(Ulamek other)
+            {
+                if (other == null) return -1;
+                if (other == this) return 0;
+
+                if (((double)this.licznik / (double)this.mianownik) > ((double)other.licznik / (double)other.mianownik)) return +1;
+                if (((double)this.licznik / (double)this.mianownik) < ((double)other.licznik / (double)other.mianownik)) return -1;
+                if (((double)this.licznik / (double)this.mianownik) == ((double)other.licznik / (double)other.mianownik)) return 0;
+                return 0;
+            }
+
+            //przeciążenie operatorów
+            public static Ulamek operator +(Ulamek x1, Ulamek x2) => new Ulamek(x1.licznik * x2.mianownik + x2.licznik * x1.mianownik, x1.mianownik * x2.mianownik);
+            public static Ulamek operator -(Ulamek x1, Ulamek x2) => new Ulamek(x1.licznik * x2.mianownik - x2.licznik * x1.mianownik, x1.mianownik * x2.mianownik);
+            public static Ulamek operator /(Ulamek x1, Ulamek x2) => new Ulamek(x2.licznik * x2.mianownik, x1.mianownik * x2.licznik);
+            public static Ulamek operator *(Ulamek x1, Ulamek x2) => new Ulamek(x1.licznik * x2.licznik, x1.mianownik * x2.mianownik);
+
+
+            public double RoundUp()
+            {
+                return Math.Ceiling((double)licznik / (double)mianownik);
+            }
+
+        }
     }
 }
